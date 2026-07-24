@@ -1,0 +1,70 @@
+# .project metadata for KubeFleet
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kubefleet"
+name: "KubeFleet"
+description: "A multi-cluster solution that enables users to effectively manage their applications running in multiple Kubernetes clusters."
+type: "project"
+project_lead: "ryanzhang-oss" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#KubeFleet"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-01-21T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/307" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kubefleet-dev/kubefleet"
+
+website: "https://kubefleet.dev/"
+
+artwork: "https://landscape.cncf.io/logos/kubefleet.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kubefleet-dev/kubefleet/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kubefleet-dev/kubefleet"
+
+
+security:
+  policy:
+    path: "https://github.com/kubefleet-dev/kubefleet/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kubefleet-dev/kubefleet/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kubefleet-dev/kubefleet/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kubefleet-dev/kubefleet/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kubefleet-dev/kubefleet/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kubefleet-dev/kubefleet/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"
+
+# CLOMonitor Score: 75/100
+# Documentation: 97 | License: 75 | Best Practices: 42 | Security: 68

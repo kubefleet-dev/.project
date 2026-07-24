@@ -1,0 +1,18 @@
+# Maintainer roster for KubeFleet
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "kubefleet"
+    org: "kubefleet-dev"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - ryanzhang-oss
+          - zhiying-lin
+          - michaelawyu
+          - sjwaight
+          - ytimocin
+          - weng271190436
+          - serbrech
