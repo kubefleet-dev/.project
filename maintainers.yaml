@@ -9,9 +9,9 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - ryanzhang-oss
-          - zhiying-lin
           - michaelawyu
+          - britaniar
+          - zhiying-lin
           - sjwaight
           - ytimocin
           - weng271190436

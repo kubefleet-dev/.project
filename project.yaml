@@ -1,24 +1,23 @@
 # .project metadata for KubeFleet
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set identity_type under legal (has_dco, has_cla)
 # TODO: Add adopters list (ADOPTERS.md)
-# TODO: Add package_managers if distributed via registries
 
 schema_version: "1.0.0"
 slug: "kubefleet"
 name: "KubeFleet"
 description: "A multi-cluster solution that enables users to effectively manage their applications running in multiple Kubernetes clusters."
 type: "project"
-project_lead: "ryanzhang-oss" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
-  - name: "#KubeFleet"
+project_lead: "michaelawyu"
+slack_channels:
+  - name: "#kubeFleet"
+    link: "https://cloud-native.slack.com/"
     primary: true
 
 maturity_log:
   - phase: "sandbox"
     date: "2025-01-21T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/307" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/307"
 
 repositories:
   - "https://github.com/kubefleet-dev/kubefleet"
@@ -27,15 +26,22 @@ website: "https://kubefleet.dev/"
 
 artwork: "https://landscape.cncf.io/logos/kubefleet.svg"
 
+social:
+  youtube: "https://www.youtube.com/@CNCFKubeFleet"
+
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
 #   path: "https://github.com/kubefleet-dev/kubefleet/blob/main/ADOPTERS.md"
 
 
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "kubefleet-dev/kubefleet"
-
+package_managers:
+  docker:
+    - "ghcr.io/kubefleet-dev/kubefleet/member-agent"
+    - "ghcr.io/kubefleet-dev/kubefleet/refresh-token"
+    - "ghcr.io/kubefleet-dev/kubefleet/hub-agent"
+  helm:
+    - "ghcr.io/kubefleet-dev/kubefleet/charts/hub-agent"
+    - "ghcr.io/kubefleet-dev/kubefleet/charts/member-agent"
 
 security:
   policy:
