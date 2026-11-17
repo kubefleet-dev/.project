@@ -24,7 +24,7 @@ repositories:
 
 website: "https://kubefleet.dev/"
 
-artwork: "https://landscape.cncf.io/logos/kubefleet.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kubefleet"
 
 social:
   youtube: "https://www.youtube.com/@CNCFKubeFleet"
